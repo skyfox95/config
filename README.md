@@ -32,7 +32,7 @@ Creates a backup of the rules:
 sudo iptables-save | sudo tee /etc/iptables.rules.backup
 ````
 
-Edit file */etc/rc.local* and add the following lines before the exit 0 line:
+Edit file */etc/rc.local* and add the following lines before the *"exit 0"* line:
 ```bash
 ptables-restore < /etc/iptables.rules.backup
 ```
