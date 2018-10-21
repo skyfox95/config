@@ -49,6 +49,21 @@ net.ipv4.ip_forward=1
 ```
 
 
+# Client configuration
+
+```
+sudo ip route add default via 192.168.0.101
+```
+
+Edit file */etc/resolvconf/resolv.conf.d/base* and add the following lines
+
+```
+# Google dns
+nameserver 8.8.8.8
+nameserver 8.8.4.4
+```
+
+
 
 
 
