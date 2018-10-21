@@ -27,5 +27,35 @@ sudo iptables -t nat -F POSTROUTING
 sudo iptables -t nat -A POSTROUTING -o enp0s3 -j MASQUERADE
 ```
 
+Creates a backup of the rules: 
+
+``
 sudo iptables-save | sudo tee /etc/iptables.rules.backup
+````
+
+Edit file */etc/rc.local* and add the following lines before the exit 0 line:
+```
+ptables-restore < /etc/iptables.rules.backup
+```
+
+Active forwarding 
+```
+sudo sh -c "echo 1 > /proc/sys/net/ipv4/ip_forward"
+```
+
+Edit file */etc/sysctl.conf* and uncomment the following line
+```
+net.ipv4.ip_forward=1
+```
+
+
+
+
+
+
+
+
+
+
+
 
