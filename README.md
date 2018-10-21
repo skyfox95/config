@@ -1,6 +1,5 @@
 # ics configuration
 
-
 Configuration of the network adapters file
 
 
