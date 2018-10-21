@@ -1,8 +1,11 @@
 # config
 
 
-Configuration of the network adapters file:
-Edit file '/etc/network/interfaces' and add the following lines:
+Configuration of the network adapters file
+
+
+Edit file */etc/network/interfaces* and add the following lines:
+
 ```
 auto enp0s3
 iface enp0s3 inet static
