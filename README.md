@@ -28,7 +28,7 @@ sudo iptables -t nat -A POSTROUTING -o enp0s3 -j MASQUERADE
 
 Creates a backup of the rules: 
 
-```
+```bash
 sudo iptables-save | sudo tee /etc/iptables.rules.backup
 ````
 
