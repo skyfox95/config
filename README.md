@@ -55,7 +55,7 @@ sudo ip route add default via 192.168.0.101
 ```
 or edit file /etc/network/interfaces and modify the right network adapter (enp0s3)
 ```
-  gateway 192.168.0.101
+gateway 192.168.0.101
 ```
 
 Edit file */etc/resolvconf/resolv.conf.d/base* and add the following lines
