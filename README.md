@@ -17,7 +17,7 @@ iface enp0s3 inet static
 
 Configuration of the internet connection shared (with NAT)
 
-Visit the [source](https://help.ubuntu.com/community/Internet/ConnectionSharing#Ubuntu_Internet_Gateway_Method_.28iptables.29).
+Visit the [source](https://help.ubuntu.com/community/Internet/ConnectionSharing#Ubuntu_Internet_Gateway_Method_.28iptables.29) or this [website](https://dev-notes.eu/2016/08/persistent-iptables-rules-in-ubuntu-16-04-xenial-xerus/).
 
 ```bash
 sudo iptables -A FORWARD -o enp0s3 -i enp0s8 -s 192.168.0.0/24 -m conntrack --ctstate NEW -j ACCEPT
