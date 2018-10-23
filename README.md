@@ -1,4 +1,4 @@
-# ics configuration
+# ics configuration on Ubuntu 16.04
 
 Configuration of the network adapters file
 
