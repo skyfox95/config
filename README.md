@@ -66,6 +66,9 @@ nameserver 8.8.8.8
 nameserver 8.8.4.4
 ```
 
+# Ubuntu Configuration 18.04.1 LTS
+
+[route](https://askubuntu.com/questions/1052789/correct-way-to-route-between-2-interfaces-with-netplan-in-ubuntu-18-04)
 
 
 
