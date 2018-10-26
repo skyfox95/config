@@ -71,6 +71,10 @@ nameserver 8.8.4.4
 [route](https://askubuntu.com/questions/1052789/correct-way-to-route-between-2-interfaces-with-netplan-in-ubuntu-18-04)
 
 
+Adds repository universe ofr sshpass package
+```
+sudo apt-add-repository universe
+```
 
 
 
